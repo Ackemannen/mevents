@@ -1,0 +1,13 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+@import "tailwindcss";
+@import "tw-animate-css";
+
+*{
+    font-family: "Lexend", sans-serif;
+}
+
+.animate-caret-blink {
+  animation: caret-blink 5s infinite; /* Duration set to 1s */
+}
